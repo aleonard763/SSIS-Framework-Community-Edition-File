@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "SSIS Framework Community Edition File", "SSIS Framework Community Edition File\SSIS Framework Community Edition File.dtproj", "{B3F94AA3-DA31-4BA9-B4F3-92364D5D3C91}"
+EndProject
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "FileFrameworkTest1", "FileFrameworkTest1\FileFrameworkTest1.dtproj", "{A496FF74-AB69-449F-8C47-79AD783D256D}"
+EndProject
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "FileFrameworkTest2", "FileFrameworkTest2\FileFrameworkTest2.dtproj", "{7A255F3A-9BF5-4182-818E-6C4CF4693913}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B3F94AA3-DA31-4BA9-B4F3-92364D5D3C91}.Development|Default.ActiveCfg = Development
+		{B3F94AA3-DA31-4BA9-B4F3-92364D5D3C91}.Development|Default.Build.0 = Development
+		{A496FF74-AB69-449F-8C47-79AD783D256D}.Development|Default.ActiveCfg = Development
+		{A496FF74-AB69-449F-8C47-79AD783D256D}.Development|Default.Build.0 = Development
+		{7A255F3A-9BF5-4182-818E-6C4CF4693913}.Development|Default.ActiveCfg = Development
+		{7A255F3A-9BF5-4182-818E-6C4CF4693913}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {398240B7-18E2-471D-AF8B-F1A8BB4EC590}
+	EndGlobalSection
+EndGlobal
