@@ -13,14 +13,14 @@
   <DeploymentModelSpecificContent>
     <Manifest>
       <DTSPackages>
-        <DtsPackage FormatVersion="0">
-          <Name>Child3.dtsx</Name>
-          <FullPath>Child3.dtsx</FullPath>
-          <References />
-        </DtsPackage>
         <DtsPackage FormatVersion="8">
           <Name>Child1.dtsx</Name>
           <FullPath>Child1.dtsx</FullPath>
+          <References />
+        </DtsPackage>
+        <DtsPackage FormatVersion="8">
+          <Name>Child3.dtsx</Name>
+          <FullPath>Child3.dtsx</FullPath>
           <References />
         </DtsPackage>
       </DTSPackages>
