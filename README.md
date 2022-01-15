@@ -1,6 +1,9 @@
 # SSIS-Framework-Community-Edition-File
 A simple SSIS Framework for executing SSIS from the file system.
 
+# Detailed Installation Instructions
+Please find detailed installation instructions at [Announcing SSIS Framework File Community Edition](https://andyleonard.blog/2022/01/announcing-ssis-framework-file-community-edition/).
+
 # Quick Framework Setup Instructions
 Open the SSIS-Framework-Community-Edition-File\SSISFrameworkDB\SSISFrameworkDB.ssmssln SSMS solution.
 Open the 0-Build.sql file, and edit the location of T-SQL scripts which initializes the value of the ScriptPath SQLCMD variable.
