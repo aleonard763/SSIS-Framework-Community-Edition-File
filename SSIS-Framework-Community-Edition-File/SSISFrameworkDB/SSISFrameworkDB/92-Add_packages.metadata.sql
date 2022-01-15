@@ -17,7 +17,7 @@ use [SSISFrameworkDB]
 go
 
 /* Child1 */
-declare @PackageFolder varchar(255) = 'E:\github\SSIS-Framework-Community-Edition-File\SSIS Framework Community Edition File\FileFrameworkTest1\'
+declare @PackageFolder varchar(255) = 'E:\_test\SSIS-Framework-File-Community-Edition-main_20220115\SSIS Framework Community Edition File\FileFrameworkTest1\'
 declare @PackageName varchar(255) = 'Child1.dtsx'
 
 declare @PackageID int = (Select PackageID
@@ -111,7 +111,7 @@ Else
  end
 
 /* Child2 */
-set @PackageFolder = 'E:\github\SSIS-Framework-Community-Edition-File\SSIS Framework Community Edition File\FileFrameworkTest2\'
+set @PackageFolder = 'E:\_test\SSIS-Framework-File-Community-Edition-main_20220115\SSIS Framework Community Edition File\FileFrameworkTest2\'
 set @PackageName = 'Child2.dtsx'
 set @ExecutionOrder = 20
 set @PackageID = (Select PackageID
@@ -196,7 +196,7 @@ Else
  end
 
 /* Child3 */
-set @PackageFolder = 'E:\github\SSIS-Framework-Community-Edition-File\SSIS Framework Community Edition File\FileFrameworkTest1\'
+set @PackageFolder = 'E:\_test\SSIS-Framework-File-Community-Edition-main_20220115\SSIS Framework Community Edition File\FileFrameworkTest1\'
 set @PackageName = 'Child3.dtsx'
 set @ExecutionOrder = 30
 set @PackageID = (Select PackageID

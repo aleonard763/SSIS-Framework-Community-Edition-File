@@ -21,12 +21,13 @@ Version History:
 print 'SSISFrameworkDB database'
 print ''
 
-:setvar ScriptPath "E:\github\SSIS-Framework-Community-Edition-File\SSISFrameworkDB\SSISFrameworkDB\"
+:setvar ScriptPath "E:\_test\SSIS-Framework-File-Community-Edition-main_20220115\SSISFrameworkDB\SSISFrameworkDB\"
 
 /* $(ScriptPath)1-Create_SSISFrameworkDB.database.sql' */
 print ' * Executing $(ScriptPath)1-Create_SSISFrameworkDB.database.sql'
 :r $(ScriptPath)1-Create_SSISFrameworkDB.database.sql
 print ''
+go
 
 /* $(ScriptPath)2-Create_cfg.schema.sql' */
 print ' * Executing $(ScriptPath)2-Create_cfg.schema.sql'

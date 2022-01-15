@@ -4,7 +4,7 @@
     <LogicalFolder Name="Connections" Type="2" Sorted="true">
       <Items>
         <ConnectionNode Name="vFw\FwCeFile:VFW\A. Ray Leonard">
-          <Created>2022-01-06T11:56:00.920483-05:00</Created>
+          <Created>2022-01-15T13:15:00.3280708-05:00</Created>
           <Type>SQL</Type>
           <Server>vFw\FwCeFile</Server>
           <UserName />
@@ -32,26 +32,26 @@
           <FullPath>1-Create_SSISFrameworkDB.database.sql</FullPath>
         </FileNode>
         <FileNode Name="2-Create_cfg.schema.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:vFw\FwCeFile:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>vFw\FwCeFile</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>2-Create_cfg.schema.sql</FullPath>
         </FileNode>
         <FileNode Name="3-Create_cfg_Applications.table.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:vFw\FwCeFile:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>vFw\FwCeFile</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>3-Create_cfg_Applications.table.sql</FullPath>
         </FileNode>
         <FileNode Name="3-Create_cfg_Packages.table.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:vFw\FwCeFile:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>vFw\FwCeFile</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>3-Create_cfg_Packages.table.sql</FullPath>
         </FileNode>
         <FileNode Name="4-Create_cfg_ApplicationPackages.table.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:vFw\FwCeFile:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>vFw\FwCeFile</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>4-Create_cfg_ApplicationPackages.table.sql</FullPath>
         </FileNode>
@@ -62,8 +62,8 @@
           <FullPath>90-Add_metadata.sql</FullPath>
         </FileNode>
         <FileNode Name="91-Add_application.metadata.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:vFw\FwCeFile:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>vFw\FwCeFile</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>91-Add_application.metadata.sql</FullPath>
         </FileNode>
